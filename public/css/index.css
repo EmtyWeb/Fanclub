@@ -1,0 +1,666 @@
+html{
+	background:#0F1A25;
+	color:#000000;
+}
+body{
+    margin:0;
+    color:#000000;
+}
+#block{
+	width:1000px; 
+    min-height:1000px;
+    max-height:8000px;
+	margin:0 auto; 
+	background:#234266;
+	margin-bottom:-16px;
+    padding: 10px 0;
+}
+/*left*/
+#left{
+	background-color:#234266;
+	width:260px;  
+	float:left; 
+	padding:0 10px;
+    margin-left:10px;
+    min-height:700px;
+    max-height:4000px;
+
+}
+#match{
+    position:relative;
+}
+#team1{
+    position:absolute;
+    top:-20px;
+    left:-10px;
+
+}
+#team2{    
+    position:absolute;
+    top:-20px;
+    left:190px;
+    }
+#OneVStwo{
+    color:#005DAA;
+    font-size: 20px;
+}
+#match_tur{
+    font-size:12px;
+}
+#last_news{
+    background-color:#ffffff;
+    color:#A59061;
+    text-align: center;
+    border:3px solid transparent;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    padding: 10px;
+    margin-bottom:10px;
+    
+}
+
+#last_news1{
+    border-bottom:1px dashed #A59061;
+}
+#last_news2{
+    font:12px Arial; 
+    text-align: right;
+}
+#last_news3{
+    text-align: left;
+}
+/*right*/
+#right{
+    background-color:#FFFFFF; 
+	width:655px; 
+    margin-left: 300px;
+	padding:10px;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+	color:#1E1B1D;
+	color:#000000;
+	text-align:left;
+    text-indent: 1.5em;
+}
+#rightp{
+    background-color:#FFFFFF;
+    width:655px;
+    margin-left: 300px;
+    padding:10px;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    color:#1E1B1D;
+    color:#000000;
+    text-align:left;
+}
+#plane2{
+
+width:150px;
+height:150px;
+margin:0 0 0 0;     
+    }
+#plane1{
+    width:170px;
+    height:450px;
+    background:url(../images/inter.fw.png) no-repeat;
+    margin: 0 0 0 50px;
+}
+#plane{
+    width:170px;
+    height:450px;
+    float:left;
+    margin:-900px 0 0 -460px;
+}
+
+#internationale a{
+       background:url(../images/internationale.fw.png) no-repeat;
+       margin:10px  -120px 0 0;
+       float:right;
+       height:1000px;
+       width: 87px;
+       display:block;
+       
+}
+/*text*/
+#index_text{
+    text-align:left;
+    text-indent: 2em;
+}
+#text_page{
+    text-align:center;
+    font:20px Arial;
+}
+/*news*/
+#novost{
+    width:600px;
+    height:160px;
+    border-bottom:2px solid #A59061;
+    margin: 10px auto;
+    color:#4F4D4A;
+    font:16px Times New Roman; 
+    
+}
+#novost_title:hover{
+        color:#A5907D ;        
+}
+#novost_title:visited{
+        color:#A5907D ;
+}
+#novost1{
+    font:12px Arial; 
+    text-align: right;
+}
+#novost_text{
+    text-align: left;
+    text-indent: 2em;
+}
+#mini_img{
+    float:left;
+    margin-right:10px;
+    width: 160px;
+    height:110px;
+}
+#img{
+    width: 610px;
+}
+.post{
+    text-align: left;
+    color:#4F4D4A;
+    font:20px Times New Roman;
+}
+#post{
+    border: 1px solid #A59061;
+    border-radius: 4px;
+    margin:10px;
+    text-align: left;
+    padding:10px;
+    min-height:50px;
+    overflow:hidden;
+    
+}
+#post1{
+    text-align: left;
+    font:12px Arial ;
+
+    color:#005EAB;
+}
+#form_comment{
+    text-align: center;
+}
+/*header*/
+#header{
+	width:100%;
+	height:166px;
+	margin:0 auto;
+    position: relative;
+}
+#fun_club{
+position:absolute;
+height:89px;
+ width:870px;
+left:400px;
+top:75px;
+
+}
+#emblem{
+    position:absolute;
+    background:url(../images/fc.png) no-repeat;
+    height:133px;
+    width:105px;
+    left: 1050px;
+    top:30px;
+}
+#ball{
+    background:url(../images/ball.fw.png) no-repeat;
+    height:50px;
+    width:50px;
+    float:left;
+    margin:-900px 0 0 75px;
+}
+
+#hed{
+		min-width:1000px;
+		max-width:4000px;		
+		background: #E3DECF;
+		height:126px;
+}
+#hed1{
+		width:100%;
+		background: #1F1F1F;
+}
+
+#hed2{
+		margin:0 auto;
+		background: #1F1F1F;
+		height:40px;
+		width:1000px;
+		padding:0;
+}
+#enter{
+    margin:10px;
+    border:2px dashed #005EAB;
+    padding:5px;
+    font:20px Arial;
+    text-decoration: none;
+}
+/*menu up*/
+#menu{
+	min-width:1000px;
+	height:30px;
+	margin:0 -7px;
+
+}
+#menu ul{
+	
+	margin:0;
+	padding:0;
+}
+#menu li{
+	float:left;
+	position:relative;
+	list-style:none;
+    width: 160px;
+   	border-left:1px solid #A59061;
+    text-align:center;
+
+}
+#menu li a{
+	display:inline-block;
+	height:40px;
+	line-height:43px;
+	padding:0 31px;
+	color:#fff;
+	text-transform:uppercase;
+	text-decoration:none;
+}
+#home{
+    border-left:none !important;
+}
+#menu li a:hover{
+	background:#192B3C;
+	color:#005DAA;
+    width: 100px; 
+}
+#menu li ul{
+	display:none; /*элементы спрятаны*/
+	position:absolute;
+	left:0;
+
+}
+#menu li:hover ul{
+	display:block; /*элементы спрятаны*/
+}
+#menu li li{
+	float:none; 
+} /*width: 150px;*/
+#menu li li a{
+	display:block;
+	background:#1A2B3B;
+	white-space: nowrap;  
+	}
+#menu li li a:hover{
+	color:#004D63;
+}
+#menu li .season:hover{
+    width: 160px;
+}
+.season{
+    width: 160px;
+}
+/*footer*/
+#footer{
+    clear: both;
+	width:100%;
+	height:460px;
+	margin: 0;
+}
+#fo{
+	background:#B9B4A1;
+	height:200px;
+	margin-bottom:-16px;
+}
+#fo1{
+	width:1000px;
+	margin: 0 auto;
+	height:200px;
+	background:#CEC8B3;
+}
+#f{
+	background: #2B2C2D;
+	height:270px;
+
+}
+#f1{
+	width:1000px;
+	margin: 0 auto;
+	background: #303132;
+	height:270px;
+}
+.well{
+	float:right;
+	width:440px;
+	padding:10px;
+	background-color:transparent;
+	border-radius:4px;
+
+}
+.search{
+	width:100px;
+	padding:5px;
+	border:1px solid black;
+	border-radius:4px;
+}
+.ss{
+	margin:0;
+	background:#A29161;
+	border-radius:6px;
+	text-decoration:none;
+	color:#005EAB;
+}
+.ss:hover{
+	background:#FFFFFF;
+	color:#005EAB;
+}
+.ss2, .ss1{
+	margin:0 0 0 13px;
+    -webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+
+}
+.ss2{
+    background:#A59061 ;
+    border:1px solid #000000;
+}
+.ss1{
+	width:200px;
+	border:1px solid #272322;
+
+}
+/*emblems footer*/
+.c1{
+	position:relative;
+
+}
+.c1 li{
+	padding:0; 
+	list-style:none;
+	position:absolute;
+	}
+.c1 li, .c1 a{
+	height:50px;
+	display:block;
+	}
+.m1{
+	width:104px;
+	left:360px;
+	top:30px;
+    background:url(../images/label.fw.png)104px -10px;
+}	
+.m2{
+	left:500px;
+	top:35px;
+	width:104px;
+    background:url(../images/label.fw.png)104px -115px;
+}	
+.m3{
+	left:170px; 
+	top:110px;
+	width:104px;
+    background:url(../images/label.fw.png)0 -100px;
+}	
+.m4{
+	left:300px; 
+	top:110px;
+	width:104px;
+    background:url(../images/label.fw.png)0px -60px;
+}
+.m5{
+	left:430px; 
+	top:110px;
+	width:104px;
+    background:url(../images/label.fw.png)104px -60px;
+}
+.m6{
+	left:560px; 
+	top:110px;
+	width:104px;
+    background:url(../images/label.fw.png)0 0
+}
+.m7{
+	left:690px; 
+	top:110px;
+	width:104px;
+    background:url(../images/label.fw.png)0 -150px;
+}
+.f1{
+	margin:0;
+	display:inline;
+	width:900px;	
+}
+/*menu down*/
+#menu3 li{
+	margin:15px 0 0 0;
+	float:left;
+	width:160px;
+	display: list-item;
+	list-style:none;
+	text-transform:uppercase;
+	font:20px Arial;
+}
+#menu3 li a{
+	text-decoration:none;
+	color:#A29161;
+	list-style:none;	
+}
+#menu3 li a:hover{
+	color:#005BAC;	
+}
+#menu3 li ul li{
+	text-transform:none;
+	margin:0 0 0 -40px;
+	font:14px Arial;
+	line-height:2em;
+}
+#menu3 li ul li a{
+	list-style:none;
+	text-decoration:none;
+	color:#A29161
+}
+#menu3 li ul li a:hover{
+	color:#FFFFDE;
+}
+/*для раздела gift*/
+#gift{
+    text-align: left;
+}
+.cham9{
+      background:url(../images/9.png)no-repeat 0 0;
+}
+.cham8{
+    background:url(../images/8.png)no-repeat 0 0;
+	padding:15px 0 15px 0 ;
+}
+.cham7{
+    background:url(../images/7.png)no-repeat 0 0;
+}
+.cham6{
+    background:url(../images/6.png)no-repeat 0 -5px;
+}
+.cham5{
+    background:url(../images/10.png)no-repeat 0 -7px;
+}
+.cham4{
+    background:url(../images/5.png)no-repeat 0 -5px;
+}
+.cham3{
+    background:url(../images/4.png)no-repeat 0 0;
+}
+.cham2{
+    background:url(../images/3.png)no-repeat 0 0;
+}
+.cham1{
+    background:url(../images/2.png)no-repeat 0 0;
+}
+.cham{
+    background:url(../images/1.png)no-repeat 0 0;
+}
+.cha{
+	padding:0 0 0 20px;
+}
+/*для players*/
+#textpl{
+    font: 20px Verdana;
+    margin-bottom:10px;
+}
+.players{
+   display: inline-block;
+   width: 310px;
+   margin:5px;
+   font:13px Arial;
+   text-align: left;
+}
+.photo{
+    width:150px ; 
+    height: 150px; 
+    float:left;
+    margin-right: 10px; 
+}
+.namepl{
+    background: #A59061;
+    border-radius:0 4px 4px 0;
+    -moz-border-radius:0 4px;
+    -webkit-border-radius:4px;
+}
+.featurespl{
+    color: #242A40;
+    padding-bottom:5px;
+    padding-top:5px;
+}
+.featurespl2{
+    color:#005EAB;
+}
+/*season*/
+#table_main{
+        font: 20px Verdana;
+}
+.table_team{
+    width:630px; 
+}
+.tabletr{
+    padding:5px;
+    border-bottom: 1px dashed #A59061 !important; 
+}
+.tabletrm{
+    border-bottom: 1px dashed #0043B2 !important; 
+    padding:5px;
+    color:#005EAB;
+}
+/*gimn*/
+#gimn1{
+    
+    text-align: center;
+    font:12px Verdana;
+    color:#0F1A25;
+}
+.text_gimn{
+    font:16px Verdana;
+    color:#025EA9;
+}
+/*history*/
+#history{
+    font:20px Verdana;
+    color:#025EA9;
+        padding:5px;
+        margin:5px;
+    border-bottom: 1px dashed #A59061 !important;
+    text-align: center; 
+}
+#history_text{
+    text-align: left;
+    text-indent: 2em;
+    padding:10px;
+}
+.history_img{
+    width:640px;
+    height:480px;
+   
+}
+/*меню админ*/
+
+#adminMenu{
+    width: 600px;
+    background: #1F1F1F;
+    height:43px;
+    margin:10px  auto;
+}
+#adminMenu ul{
+    margin:0;
+    padding:0;
+}
+#adminMenu li{
+    float:left;
+    position:relative;
+    list-style:none;
+    width: 185px;
+    text-align:center;
+    color: #ffffff;
+    text-transform:uppercase;
+    line-height:43px;
+}
+#adminMenu li a{
+    display:inline-block;
+    height:40px;
+    line-height:43px;
+    padding:0 31px;
+    color:#FFFFFF;
+    text-transform:uppercase;
+    text-decoration:none;
+    width: 168px;
+}
+#adminMenu li a:hover{
+    background:#192B3C;
+    color:#005DAA;
+    width: 168px;
+}
+#adminMenu li ul{
+    display:none; /*элементы спрятаны*/
+    position:absolute;
+    left:0;
+}
+#adminMenu li:hover ul{
+    display:block; /*элементы спрятаны*/
+}
+#adminMenu li li{
+    float:none;
+} /*width: 150px;*/
+#adminMenu li li a{
+    display:block;
+    background:#1A2B3B;
+    white-space: nowrap;
+}
+#adminMenu li li a:hover{
+    color:#004D63;
+}
+#adminMenu li a:hover{
+    width: 168px;
+}
+
+/*form Admin*/
+#form{
+    text-align: center;
+}
+/*Test*/
+#test{
+    float:left;
+    margin:-130px 0 0 1200px;
+    background:#004D63 ;
+    width: 120px;
+    height: 70px;
+    text-align: center;
+    padding: 5px;
+
+}
